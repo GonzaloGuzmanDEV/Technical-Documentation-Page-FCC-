@@ -1,0 +1,554 @@
+/* General Styles */
+
+body{
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+li{
+
+    font-size: 18px;
+}
+
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* principalContainer */
+
+#principalContainer{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* Resources link */
+
+.linkIcon{
+
+    display: none;
+}
+
+/* navSection */
+
+#JsHeader{
+
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Bebas Neue';
+    border-bottom: 5px solid grey;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: yellow;
+    letter-spacing: 2px;
+
+}
+
+#navbar{
+
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+}
+
+#ulPrincipal{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    height: 88%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#ulPrincipal li{
+
+    list-style: none;
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main-doc */
+
+#main-doc{
+
+    margin: 20px;
+}
+
+#main-doc h2{
+
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+}
+
+/* introductionSection */
+
+#introductionSection{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#introductionSection li{
+
+    font-size: 16px;
+    list-style: circle;
+    margin-bottom: 10px;
+    height: auto;
+    color: rgb(65, 65, 65);
+
+}
+
+/* whatYouSection */
+
+#whatYouSection ul{
+
+
+}
+
+#whatYouSection li{
+
+    font-size: 16px;
+    list-style: circle;
+    margin-bottom: 10px;
+    height: auto;
+    color: rgb(65, 65, 65);
+    justify-content: flex-start;
+}
+
+/* HelloSection */
+
+#HelloSection code{
+
+    width: 90%;
+    margin: 10px;
+
+}
+
+.codeClass{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+/* varSection */
+
+.varCode{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.varCode code{
+
+
+    margin: 10px;
+}
+
+.varCode02{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.varCode02 code{
+
+
+    margin: 10px;
+}
+
+.varCode03{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.varCode03 code{
+
+
+    margin: 10px;
+}
+
+#buttonHome{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1a6fcf;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonHome img{
+
+    width: 50%;
+}
+
+#buttonHome:hover{
+
+    width: 65px;
+    height: 65px;
+    transition-duration: 0.5s;
+}
+
+/* VarScopeSection */
+
+.varScopeCode01{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.varScopeCode01 code{
+
+    margin: 10px;
+}
+
+.varScopeCode02{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.varScopeCode02 code{
+
+    margin: 10px;
+}
+
+/* ConstSection */
+
+.constCode{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.constCode code{
+
+    margin: 10px;
+}
+
+.constCode02{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.constCode02 code{
+
+    margin: 10px;
+}
+
+.constCode03{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.constCode03 code{
+
+    margin: 10px;
+}
+
+/* DataSection */
+
+#DataUl01{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#DataUl01 li{
+
+    list-style: disc;
+    margin: 5px;
+}
+
+#DataUlSub{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#DataUlSub li{
+
+    list-style:circle;
+}
+
+/* ifElseSection */
+
+.IfElseCode01{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.IfElseCode01 code{
+
+    margin: 10px;
+}
+
+.IfElseCode02{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.IfElseCode02 code{
+
+    margin: 10px;
+}
+
+.IfElseCode03{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.IfElseCode03 code{
+
+    margin: 10px;
+}
+
+.IfElseCode04{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.IfElseCode04 code{
+
+    margin: 10px;
+}
+
+.IfElseCode05{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.IfElseCode05 code{
+
+    margin: 10px;
+}
+
+/* whileSection */
+
+.WhileCode01{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.WhileCode01 code{
+
+    margin: 10px;
+}
+
+.WhileCode02{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.WhileCode02 code{
+
+    margin: 10px;
+}
+
+/* functionSection */
+
+.functionCode01{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.functionCode01 code{
+
+    margin: 10px;
+}
+
+.functionCode02{
+
+    width: 90%;
+    height: 60px;
+    background: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.functionCode02 code{
+
+    margin: 10px;
+}
+
+/* referenceSection */
+
+#referenceSection a{
+
+    color: #1a6fcf;
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media all and (max-width:300px){
+
+    #principalContainer{
+
+
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+@media all and (max-width:600px){
+
+    #principalContainer{
+
+
+       display: flex;
+       flex-direction: column;
+    }
+
+    #navbar{
+
+        align-items: center;
+    
+    }
+
+    #ulPrincipal{
+
+        align-items: center;
+        margin-right: 20px;
+    }
+}
